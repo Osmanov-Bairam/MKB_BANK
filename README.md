@@ -12,18 +12,39 @@
 1. Добавь папку с данными себе на гугл диск:
 https://drive.google.com/drive/folders/1ZSBaKhKtJyMXqZYQVa3z8VoW52PCxlXo?usp=sharing
 
+## **Краткие выводы**
+
+**Особенности данных**
+
+1) В общем в данных не хватало 50% всех признаков.
+![Fullness of columns](https://user-images.githubusercontent.com/73111855/150682262-eb8bb886-b70b-4318-96e7-2b35c8fbb818.png)
+
+2) Некоторые наблюдения вообще имели 1-2 признака из 120 или были всего заполнены на 15-20%.
+![Percent of rows are filled](https://user-images.githubusercontent.com/73111855/150682271-0ab1e063-042c-47cb-b347-2cff75f08c17.png)
+
 **Какие исследования были сделаны?**
 
-1) Были созданы ?? новых признака для предсказания надежности клиентов.
-2) Проведено сравнение разных моделей по точности предсказания и времени обучения.
-3) Проведена оптимизация моделей для более быстрого обучения.
-4) Выявлены главные признаками, влияющие на предсказания, а так же вес каждого признака.
+1) Было создано 264 новых признака для предсказания надежности клиентов.
+2) Проведена оптимизация моделей для более быстрого обучения.
+До оптимизации:
+![MLA_compare_off](https://user-images.githubusercontent.com/73111855/150682220-a01bc956-0223-47eb-b200-a631ac2a9826.png)
+После оптимизации:
+![MLA_compare](https://user-images.githubusercontent.com/73111855/150682240-5250300f-932e-4cc2-b9b4-1131c253ebcb.png)
+
+4) Проведено сравнение разных моделей по точности предсказания и времени обучения.
+
+
+6) Выявлены главные признаками, влияющие на предсказания, а так же вес каждого признака.
+- Clients who sign more one contract during the day bring less risk to the bank. 
+- Besides, we see that clients how has little contracts also bring less risk to the bank.
+- Clients who didn't report F2340 - other cost - bring more risk to the bank
+- Clients who didn't report ADMITTEDNUMBER_95_YEAR - number of bid contracts - bring less risk to the bank
 
 **Какие выводы были получены?**
 
-1)Лучшая модель на тестовых данных дает точность ??
-2)Топовые признаки, которые лучше всего предсказывают наступление гарантийного случая:
-??
+1) Лучшая модель на тестовых данных дает точность.
+2) Топовые признаки, которые лучше всего предсказывают наступление гарантийного случая.
+![Top features](https://user-images.githubusercontent.com/73111855/150682281-68a9ac8c-8e41-4118-9371-659f06b37519.png)
 
 **Что еще предстоит сделать?**
 
