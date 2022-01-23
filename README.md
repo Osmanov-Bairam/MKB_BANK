@@ -69,6 +69,7 @@ https://drive.google.com/drive/folders/1ZSBaKhKtJyMXqZYQVa3z8VoW52PCxlXo?usp=sha
 ### **Какие выводы были получены?**
 
 **1) Лучшая модель на тестовых данных дает точности 0.906.**
+
 **2) Топ 10 признаков, которые лучше всего предсказывают наступление гарантийного случая.**
 
 - F_contract_count_in_day_std - дисперсия величены contract_count_in_day за все время. Этот признак отражает как сильно менялся contract_count_in_day во времени. Сontract_count_in_day - количество контрактов за 1 день.
